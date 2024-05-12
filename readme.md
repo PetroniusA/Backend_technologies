@@ -35,6 +35,18 @@ python manage.py startapp viewer
 ### Registrace aplikace 
 Aplikaci můžeme zaregistrovat v souboru C:\Users\Dell\Desktop\python\Backend_technologies\hollymovies\settings.py
 
+# ORM
+
+Modely vytváříme v aplikaci 'models.py' v dané aplikaci.
+
+DŮLEŽITÉ: Po každé změně v modelech(tj. v souboru 'models.py' ) musime 
+
+vytvoření migračního skriptu: 'python manage.py makemigrations'
+-aplikujeme migraci: 'python manage.py migrate'
+
+
+
+
 
 
 
